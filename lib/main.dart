@@ -1,86 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(Container(
-      padding: EdgeInsets.all(4),
-      child: Row(
-        textDirection: TextDirection.ltr,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        verticalDirection: VerticalDirection.down,
-        children: <Widget>[
-          Expanded(
-            child:  Column(
-                children: [
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.amber,
-                      //child: Text("")
-                    ),
-                    flex: 4,),
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.blue,
-                      // child: Text("")
-                    ),
-                    flex: 1,),
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.deepPurple,
-                      // child: Text("2")
-                    ),
-                    flex: 1,),
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.deepOrange,
-                      //child: Text("2")
-                    ),
-                    flex: 4,),
-                ]),
-            flex: 1,
-          ),
-          Expanded(
-            child:  Column(
-                children: [
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.amber,
-                      //child: Text("")
-                    ),
-                    flex: 4,),
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.blue,
-                      // child: Text("")
-                    ),
-                    flex: 1,),
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.deepPurple,
-                      // child: Text("2")
-                    ),
-                    flex: 1,),
-                  Expanded(
-                    child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.deepOrange,
-                      //child: Text("2")
-                    ),
-                    flex: 4,),
-                ]),
-            flex: 1,
-          )
-        ],)
-  ));
-}
 
-/*
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -160,83 +82,98 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.all(4),
-        child: Row(
-        textDirection: TextDirection.ltr,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        verticalDirection: VerticalDirection.down,
-        children: <Widget>[
-        Expanded(
-            child:  Column(
-                children: [
-                Expanded(
-                  child:Container(
-                      margin: EdgeInsets.all(4),
-                      color: Colors.amber,
-                      //child: Text("")
-                  ),
-                  flex: 4,),
-                  Expanded(
-                    child:Container(
-                        margin: EdgeInsets.all(4),
-                        color: Colors.blue,
-                       // child: Text("")
-                    ),
-                    flex: 1,),
-                  Expanded(
-                    child:Container(
-                        margin: EdgeInsets.all(4),
-                        color: Colors.deepPurple,
-                       // child: Text("2")
-                    ),
-                    flex: 1,),
-                  Expanded(
-                    child:Container(
-                        margin: EdgeInsets.all(4),
-                        color: Colors.deepOrange,
-                        //child: Text("2")
-                    ),
-                    flex: 4,),
-                ]),
-          flex: 1,
-          ),
-          Expanded(
-              child:  Column(
-                  children: [
-                    Expanded(
-                      child:Container(
-                        margin: EdgeInsets.all(4),
-                        color: Colors.amber,
-                        //child: Text("")
-                      ),
-                      flex: 4,),
-                    Expanded(
-                      child:Container(
-                        margin: EdgeInsets.all(4),
-                        color: Colors.blue,
-                        // child: Text("")
-                      ),
-                      flex: 1,),
-                    Expanded(
-                      child:Container(
-                        margin: EdgeInsets.all(4),
-                        color: Colors.deepPurple,
-                        // child: Text("2")
-                      ),
-                      flex: 1,),
-                    Expanded(
-                      child:Container(
-                        margin: EdgeInsets.all(4),
-                        color: Colors.deepOrange,
-                        //child: Text("2")
-                      ),
-                      flex: 4,),
-                  ]),
-            flex: 1,
-          )
-      ],)
+          padding: EdgeInsets.all(4),
+          child: Row(
+            textDirection: TextDirection.ltr,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            verticalDirection: VerticalDirection.down,
+            children: <Widget>[
+              Expanded(
+                child:  Column(
+                    children: [
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.amber,
+                            child: Text("1", textAlign: TextAlign.center)
+                        ),
+                        flex: 4,),
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.blue,
+                            child: Text("3", textAlign: TextAlign.center)
+                        ),
+                        flex: 1,),
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.pinkAccent,
+                            child: Text("5", textAlign: TextAlign.center)
+                        ),
+                        flex: 1,),
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.deepOrange,
+                            child: Text("7", textAlign: TextAlign.center)
+                        ),
+                        flex: 4,),
+                    ]),
+                flex: 1,
+              ),
+              Expanded(
+                child:  Column(
+                    children: [
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.amber,
+                            child: Text("2", textAlign: TextAlign.center)
+                        ),
+                        flex: 4,),
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.blue,
+                            child: Text("4", textAlign: TextAlign.center)
+                        ),
+                        flex: 1,),
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.pinkAccent,
+                            child: Text("6", textAlign: TextAlign.center)
+                        ),
+                        flex: 1,),
+                      Expanded(
+                        child:Container(
+                            width: 12000000,
+                            height: 600000000,
+                            margin: EdgeInsets.all(4),
+                            color: Colors.deepOrange,
+                            child: Text("8", textAlign: TextAlign.center)
+                        ),
+                        flex: 4,),
+                    ]),
+                flex: 1,
+              )
+            ],)
       )
     );
   }
 }
-*/
