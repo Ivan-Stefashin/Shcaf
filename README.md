@@ -1,7 +1,6 @@
 <h1>Прототип шкафа</h1>
 ##Первый коммит
-![image](https://github.com/Pavel-Stefashin/Shcaf/assets/135818098/6a3619e8-1f64-4818-a1f1-b27cdbcc5883)
-![image](https://github.com/Pavel-Stefashin/Shcaf/assets/135818098/977f82db-0d52-480e-a2c0-ea2deffd3dcd)
+![image](https://github.com/Pavel-Stefashin/Shcaf/assets/135818098/e222828b-a541-47ce-8d2f-7d2f44a4ac37)
 
 ##Второй коммит
 ![image](https://github.com/Pavel-Stefashin/Shcaf/assets/135818098/1b048a48-db14-402e-bd5f-fdf75d906d1c)
